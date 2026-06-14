@@ -1,0 +1,22 @@
+{
+  "name": "cms",
+  "version": "1.0.0",
+  "description": "A production-quality CMS with immutable post versioning, TipTap rich-text editing, JSON-aware diffs, and Postgres full-text search.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm i --prefix backend-modified && npm i --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend-modified"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vamshiiM/CMS_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vamshiiM/CMS/issues"
+  },
+  "homepage": "https://github.com/vamshiiM/CMS#readme"
+}
