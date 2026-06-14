@@ -124,18 +124,12 @@ Send auth as `Authorization: Bearer <token>`.
 
 ## Deployment
 
-### Frontend → Vercel
-- Root: `frontend/`
-- Build command: `npm run build`
-- Output: `dist`
-- Env: `VITE_API_URL=https://<backend-host>/api`
-
-### Backend → Render / Railway
-- Root: `backend/`
-- Build: `npm install`
-- Start: `npm start`
-- Env: `DATABASE_URL` (from Neon), `JWT_SECRET`, `CORS_ORIGIN=https://<your-vercel-domain>`
-- After first deploy, run `npm run migrate && npm run seed` once.
+### Backend And Frontend → Render 
+- Go to the root of the folder 
+```bash
+npm run build
+npm run start              
+```
 
 ### Database → Neon
 - Create project, copy `DATABASE_URL`, paste into backend env.
