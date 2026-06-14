@@ -4,7 +4,7 @@
   "description": "A production-quality CMS with immutable post versioning, TipTap rich-text editing, JSON-aware diffs, and Postgres full-text search.",
   "main": "index.js",
   "scripts": {
-    "build": "npm i --prefix backend-modified && npm i --prefix frontend && npm run build --prefix frontend",
+    "build": "npm install @types/react @types/react-dom --prefix frontend && npm i --prefix backend-modified && npm i --prefix frontend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend-modified"
   },
   "repository": {
