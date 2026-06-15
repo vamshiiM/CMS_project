@@ -18,11 +18,16 @@ cms/
 │       ├── config/ models/ migrations/ seeders/
 │       ├── middlewares/ controllers/ services/ routes/ utils/
 │       └── server.js
-└── frontend/
-    └── src/
-        ├── components/ (ui/) pages/ contexts/ lib/ types/
-        ├── App.tsx
-        └── main.tsx
+├── frontend/
+|    └── src/
+|        ├── components/ (ui/) pages/ contexts/ lib/ types/
+|        ├── App.tsx
+|        └── main.tsx
+|
+├── DECISIONS.md
+├── package-lock.json
+├── package.json
+└── README.md
 ```
 
 ---
